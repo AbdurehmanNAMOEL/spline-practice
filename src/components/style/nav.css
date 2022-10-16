@@ -23,13 +23,7 @@ nav{
  nav{
     width: 95%;
     margin-left: 2.5%;
- }
- ul{
-    width: 80%;
-    gap: 20px;
-    margin-right: 200px;
-    font-size: smaller;
- }   
+ } 
  .logo{
     margin-left: 5px;
     font-size: 22px;

@@ -18,3 +18,15 @@ li a:hover{
     -ms-transition: all 0.7s;
     -o-transition: all 0.7s;
 }
+
+@media only screen  and (max-width:540px){
+
+ ul{
+    width: 80%;
+    gap: 7px;
+    margin-right: 330px;
+    font-size: smaller;
+  
+ }   
+ 
+}
