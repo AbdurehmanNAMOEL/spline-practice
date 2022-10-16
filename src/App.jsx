@@ -1,12 +1,11 @@
 
 import './App.css';
 import Section from './components/Section';
-import { Home, Switch } from './util/iframeSource';
+import { listOfSplineData } from './util/splineData';
 function App() {
   return (
     <div className="App">
-     <Section url={Home}/>
-     <Section url={Switch}/>
+      {listOfSplineData.map(data=><Section title={data.title} url={data.url}/>)}
     </div>
   );
 }
