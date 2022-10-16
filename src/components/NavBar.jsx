@@ -1,17 +1,13 @@
 import React from 'react'
 import './style/nav.css'
+import UnOrderList from './UnOrderList'
 const NavBar = () => {
   return (
     <nav>
      <div className='logo'>
         <a href='#home'>@namoel</a>
      </div>
-      <ul>
-        <li><a href='#home'>Home</a></li>
-        <li><a href='#switch'>Design</a></li>
-         <li><a href='#keyBoard'>More</a></li>
-        <li><a href='#myHome'>About</a></li>
-      </ul>
+      <UnOrderList/>
     </nav>
   )
 }

@@ -18,27 +18,6 @@ nav{
     text-decoration: none;
     color: #121212;
 }
-ul{
-    display: flex;
-    list-style: none;
-    gap: 80px;
-    font-weight: bolder;
-    margin-right: 30px;
-}
-li a{
-    cursor: pointer;
-    color: #121212;
-    text-decoration: none;
-}
-li a:hover{
-    color: #04243a;
-    transition: all 0.7s;
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    -ms-transition: all 0.7s;
-    -o-transition: all 0.7s;
-}
-
 
 @media only screen  and (max-width:540px){
  nav{
@@ -55,4 +34,5 @@ li a:hover{
     margin-left: 5px;
     font-size: 22px;
  }
+ 
 }
